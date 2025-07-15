@@ -1,0 +1,6 @@
+var name= prompt("your name pliz");
+var fchar=name.slice(0,1);
+fchar=fchar.toUpperCase();
+var sname=name.slice(1,name.length);
+sname= sname.toLowerCase(1,name.length);
+alert("hello "+ fchar + sname);
